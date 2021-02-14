@@ -65,6 +65,10 @@
 // @Ryuuzaki: based on your comments, let's stick to "Übersicht" for now.
 "QRCodeScanner" = "QR-Code Scanner";
 
+// ADDED: (please verify)
+"VerifyEmail" = "E-Mail bestätigen";
+"VerificationEmailSent" = "Bestätigungs-E-Mail gesendet";
+"PleaseCheckYourEmail" = "Bitte überprüfen Sie Ihre E-Mail";
 
 "Cancel" = "Abbrechen";
 
@@ -89,7 +93,7 @@
 "ProfileLinks" = "Links";
 "AddLink" = "Link hinzufügen";
 "EditProfileURLNote" = "Hinweis: Nur gültige URI/URL werden gespeichert";
-"UserNameNoEmpty" = "Der Anzeigename darf nicht leer sein;
+"UserNameNoEmpty" = "Der Anzeigename darf nicht leer sein";
 
 
 // Advanced View - Change PIN View:
@@ -186,8 +190,7 @@
 "ChipUID" = "Chip UID";
 "ImplantID" = "Implantat ID";
 "CopyTitle" = "Kopieren erfolgreich";
-"CopyDescription1" = "Chip UID in die Zwischenablage kopiert";
-"CopyDescription2" = "Implantat ID in die Zwischenablage kopiert";
+"CopyDescription" = "Implantat ID in die Zwischenablage kopiert";
 "CopyOK" = "OK";
 
 // From Weblink:
