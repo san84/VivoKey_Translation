@@ -186,7 +186,8 @@
 "ChipUID" = "Chip UID";
 "ImplantID" = "Implantat ID";
 "CopyTitle" = "Kopieren erfolgreich";
-"CopyDescription" = "Implantat ID in die Zwischenablage kopiert";
+"CopyDescription1" = "Chip UID in die Zwischenablage kopiert";
+"CopyDescription2" = "Implantat ID in die Zwischenablage kopiert";
 "CopyOK" = "OK";
 
 // From Weblink:
