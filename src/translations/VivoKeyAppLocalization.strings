@@ -66,9 +66,9 @@
 "QRCodeScanner" = "QR-Code Scanner";
 
 // ADDED: (please verify)
-"VerifyEmail" = "E-Mail bestätigen";
+"VerifyEmail" = "E-Mail-Adresse bestätigen";
 "VerificationEmailSent" = "Bestätigungs-E-Mail gesendet";
-"PleaseCheckYourEmail" = "Bitte überprüfen Sie Ihre E-Mail";
+"PleaseCheckYourEmail" = "Bitte überprüfe dein Postfach";
 
 "Cancel" = "Abbrechen";
 
