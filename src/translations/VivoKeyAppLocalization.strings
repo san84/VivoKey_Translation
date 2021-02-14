@@ -49,41 +49,28 @@
 "Welcome" = "Willkommen";
 "ScanYourVivoKey" = "Scanne deinen VivoKey";
 "ConnectingToServer" = "Die Verbindung zum Server wird aufgebaut...";
-// TODO: Is this a typo? "Acquiring" instead of "adquiring"?
-// RESP: Yes, its a typo, thank you for pointing it out, I will change it right away.
-// TODO: I need a little more context for a better translation. Is this used while "loading" user information (e.g.) from a server, or to "enter" user information during the initial setup?
-// RESP: There is a little moment after scanning a chip that the app will take to download the user information, user image, vivokeys, custom apps, etc. In this moment the login button will dissapear and show a little message that "The app is getting user info from the server"
 "AdquiringUserInformation" = "Benutzerinformationen werden geladen..."; // --> translates to "loading" the user information from a server or from the implant
-// "AdquiringUserInformation" = "Benutzerinformationen erfassen..."; // -->   translates to "enter" / "collect" the user information from a form
 "ReaderError" = "Lesefehler";
 "PleaseTryAgain" = "Bitte versuche es nochmals";
 
 // MainView - Help:
 "WelcometoVivoKey" = "Willkommen bei VivoKey";
-
-//"WelcomeToVivoKeyDescription" = "This app helps you setup your VivoKey profile. Access other platforms trough QR Code authorizations. Control the response of your implant to other devices. Manage the authorizations to other devices and services trough OAuth2.0 and create your own custom application credentials.\n\nIn order to use this app you will need to have one VivoKey cybernetic implant with you. If you still don't have your own VivoKey cybernetic implant, please visit the following link to know where you can obtain one.";
 "WelcomeToVivoKeyDescription" = "Diese App hilft dir bei der Einrichtung deines VivoKey-Profils. Greife über QR-Code-Autorisierungen auf andere Plattformen und Dienste zu. Steuere das Verhalten deines Implantats, wenn es von anderen Geräten gescannt wird. Verwalte die Autorisierungen anderer Geräte und Dienste mittels OAuth2.0 und erstelle deine persönlichen Anmeldeinformationen für weitere Applikationen.\n\nUm diese App verwenden zu können, benötigst du ein kybernetisches VivoKey-Implantat. Wenn du noch kein eigenes kybernetisches VivoKey-Implantat besitzt, besuche die folgende Seite um herauszufinden, wo du eines erwerben kannst.";
-
-// TODO: Doesn't "obtain" sound like "receiving it for free"? I chose "erwerben" in German, which means "purchase" or "buy". If you prefer to stick with "obtain", you can simply replace "erwerben" with "erhalten", which translates to "obtain" or "receive".
-// RESP: I didn't give it much thought, I guess Americans know that "nothing is for free". But you are right, being more clear in the words helps to better communicate what we want to let the user know. We can go with "Buy" instead even on the English text. Thank you for your imput.
 
 // Web Profile View:
 
 
 // User View - Dashboard
 "UserViewTitle" = "Übersicht"; 
-// TODO: Maybe it's better to stick to "Dashboard". It depends on where it is used inside the app. "Übersicht" translates to "Overview".
-// RESP: This is the title of the first page the user sees, Amal calls it the Dashboard because it will hold basic Links (buttons/cards) that he can mannage and you can see your profile. Is the name of the first page. But I am not sure if in German makes no sense to call it "Dashboard" or you guys are used to see "Overview" instead.
-
+// @Ryuuzaki: based on your comments, let's stick to "Übersicht" for now.
 "QRCodeScanner" = "QR-Code Scanner";
 
 
 "Cancel" = "Abbrechen";
 
 // User View - Edit User View
-"PackingData" = "Daten werden verpackt..."; 
-// TODO: Again, this might change a bit depending on the context where it is used.
-// RESP: Packing data... this text shows in a small animation when the user finishes changing their information and clicks DONE, happens really quick tho, but is the moment where the app grabs the Data the user changes in the screen, (including photo) before sending it to the server. "Packing data..." means like putting clothes on the luggate before sending it to the server. Makes sense?
+"PackingData" = "Daten werden verarbeitet...";
+// --> updated translation to "Daten werden verarbeitet...", which approx. translates to "Processing data..."
 
 "UpdatingProfile" = "Profil wird aktualisiert...";
 "UploadingAvatar" = "Avatar wird hochgeladen...";
@@ -96,9 +83,8 @@
 "Name" = "Benutzername";
 "EmailAddress" = "E-Mail-Adresse";
 "SelfIntroduction" = "Über mich";
-"FeaturedLink" = "Angezeigter Link"; 
-// TODO: This might also change based on the context
-// RESP: In your VivoKey Profile, you have the option to have up to 5 custom links, but also your main user information will have an extra space to showcase a "Main" link. In the code is called "Featured Link" because is on top of the other links right under your name.
+"FeaturedLink" = "Hervorgehobener Link";
+// @Ryuuzaki: based on your comments, I propose "Hervorgehobener Link", which translates to "Highlighted Link"
 
 "ProfileLinks" = "Links";
 "AddLink" = "Link hinzufügen";
@@ -124,10 +110,11 @@
 
 // Reader
 "HoldYouriPhoneNearYourVivoKey" = "Halte dein iPhone an deinen VivoKey";
-// TODO: the NFC reader of the iPhone is always on the top of the device. Should we point this out?
-// RESP: Apple is very picky with the way the words are said on this dialog. Your suggestion might work as well, but it might also just be too long to read all the time once a user knows how to do it. Also when users press the read NFC action there is a small animation that shows the top of the iPhone getting close to a singal. So I feel is intuitive enough. Thoughts?
-
-// "Hold the top of your iPhone near your VivoKey" --> "Halte die obere Seite deines iPhones an deinen VivoKey"
+// RESP: Apple is very picky with the way the words are said on this dialog.
+// Your suggestion might work as well, but it might also just be too long to read all the time once a user knows how to do it.
+// Also when users press the read NFC action there is a small animation that shows the top of the iPhone getting close to a singal.
+// So I feel is intuitive enough. Thoughts?
+// RESP2: Agreed. I forgot about the animation. This should be clear enough, IMHO.
 
 // PIN View:
 "ThisVivoKeyIsInUse" = "Dieser VivoKey wird bereits benutzt!";
@@ -170,9 +157,6 @@
 "NewPinHelpTwo" = "You will need to input your PIN only one time everytime you login a different device.";
 "NewPinHelpTwo" = "Immer wenn du dich an einem anderen Gerät anmeldest, musst du deine PIN beim ersten Login einmal eingeben.";
 "NewPinHelpTree" = "Denk daran: Es gibt keine Möglichkeit, deine PIN wiederherzustellen oder zurückzusetzen, wenn du sie vergessen hast.";
-// "NewPinHelpTree" = "Remember: There is no way to reset or recover your PIN if you forget it.";
-// TODO: There are two spaces between "recover" and "your"
-// RESP: THANK YOU! Fixed it.
 "NewPinHelpFour" = "Du kannst deine PIN in der Lasche 'Erweitert' ändern. Dazu benötigst Du aber deine aktuelle PIN.";
 "NewPinHelpFive" = "Wähle eine sichere PIN, die du dir gut merken kannst.";
 
@@ -249,9 +233,6 @@
 // Advanced View - Warning
 "Warning" = "WARNUNG!";
 "Warning1" = "Die Änderungen auf dieser Seite können nicht rückgängig gemacht werden!";
-// "Warning2" = "Please be aware that we cannot undo any changes made on this page.";
-// TODO: Typo - "Plase" --> "Please"
-// RESP: Fixed thank you!
 "Warning2" = "Bitte beachte, dass Änderungen auf dieser Seite nicht rückgängig gemacht werden können.";
 "Understood" = "Ich habe verstanden";
 "DontShowWarning" = "Diese Nachricht nicht mehr anzeigen.";
