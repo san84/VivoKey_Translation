@@ -1,0 +1,231 @@
+/* 
+  Localizable.strings
+  VivoKey
+
+  Created by Ryuuzaki on 2020/06/17.
+  Copyright © 2021 VivoKey. All rights reserved.
+
+ Translation Date: 14.02.2021
+ Translated Into: German
+ Translated By: Oliver
+ Contact Info: oliver.merki@me.com
+
+ Instructions:
+ The data is arranged in "Key" = "Value" form, some notes are after //... notes don't affect the value of the data.
+
+             Only modify this part inside the [" "].
+                       |
+                       V
+ "SomeKey" = "This is the text for SomeKey"  // This is just a note
+
+ Replace the "Value" or comment out [//] the complete sentense.
+
+ // "SomeKey" = "This is the text for SomeKey"  // This is just a note
+    "SomeKey" = "Este es el texto para SomeKey"
+
+ Note, don't add any more ["]
+
+ To make the work easier, I recommend you install a text editor that can color code a *.strings type of file:
+
+ Download Microsoft's Visual Studio Code text editor:
+ https://code.visualstudio.com
+
+ Install an extension to highlight Keys vs Values vs Comments to make it easier to work:
+ https://marketplace.visualstudio.com/items?itemName=mhcpnl.xcodestrings
+
+ Let me know if you have any questions:
+
+ Ryuuzaki Julio
+ ryuuzaki@vivokey.com
+
+*/
+
+
+
+// [START: TRANSLATION INSIDE THE APP]
+
+
+// MainView - Top:
+"Welcome" = "Welcome";
+"ScanYourVivoKey" = "Scan your VivoKey";
+"ConnectingToServer" = "Connecting to server...";
+"AdquiringUserInformation" = "Adquiring user information...";
+"ReaderError" = "Reader error";
+"PleaseTryAgain" = "Please try again";
+
+// MainView - Help:
+"WelcometoVivoKey" = "Welcome to VivoKey";
+
+"WelcomeToVivoKeyDescription" = "This app helps you setup your VivoKey profile. Access other platforms trough QR Code authorizations. Control the response of your implant to other devices. Manage the authorizations to other devices and services trough OAuth2.0 and create your own custom application credentials.\n\nIn order to use this app you will need to have one VivoKey cybernetic implant with you. If you still don't have your own VivoKey cybernetic implant, please visit the following link to know where you can obtain one.";
+
+// Web Profile View:
+
+
+// User View - Dashboard
+"UserViewTitle" = "Dashboard";
+"QRCodeScanner" = "QR Code Scanner";
+
+
+"Cancel" = "Cancel";
+
+// User View - Edit User View
+"PackingData" = "Packing data...";
+"UpdatingProfile" = "Updating profile...";
+"UploadingAvatar" = "Uploading avatar...";
+
+"EditProfileTitle" = "Edit Profile";
+"UpdatingVivoKeyProfile" = "Updating VivoKey Profile";
+
+"Done" = "Done";
+
+"Name" = "User Name";
+"EmailAddress" = "Email Address";
+"SelfIntroduction" = "Self Introduction";
+"FeaturedLink" = "Featured Link";
+"ProfileLinks" = "Links";
+"AddLink" = "Add link";
+"EditProfileURLNote" = "Note: Only valid URL/URI will be saved";
+"UserNameNoEmpty" = "Username can't be empty";
+
+
+// Advanced View - Change PIN View:
+"CurrentPIN" = "Current PIN";
+"NewPIN" = "New PIN";
+"ConfirmNewPIN" = "Confirm new PIN";
+"Step" = "Step";
+"RegisteringNewPIN" = "Registering new PIN...";
+"DoesntmatchNewPIN" = "Doesn't match new PIN";
+"CouldntReachTheServer" = "Couldn't reach the server";
+"WrongCurrentPIN" = "Wrong current PIN";
+"PINChange" = "PIN Change";
+"ChangeSuccessful" = "Change Successful";
+"EnterValidEmailAddress" = "Enter a valid email address";
+
+"Close" = "Close"; // Close alert
+
+
+// Reader
+"HoldYouriPhoneNearYourVivoKey" = "Hold your iPhone near your VivoKey";
+
+// PIN View:
+"ThisVivoKeyIsInUse" = "This VivoKey is in use!";
+"EnterYourPin" = "Enter your profile PIN";
+"LoginIn" = "Acquiring user information...";
+
+// New VivoKey Profile
+"NewProfileTitle" = "New VivoKey Profile";
+
+"NewProfileDescription" = "Create a new VivoKey profile and link your new VIVOKEY!"; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
+
+"NewProfileName" = "Name";
+"NewProfileEmail" = "Email Address";
+"NewProfileNextStep" = "Next step";
+"NewProfileNameCantBeEmtpy" = "Name can't be empty.";
+"NewProfileEnterValidEmail" = "Enter valid E-mail";
+"NewProfileBeforeProceed" = "Before you proceed!";
+"NewProfileBefore1" = "Your VivoKey VIVOKEY can only be linked to one VivoKey Profile."; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
+"NewProfileBefore2" = "See help for more details.";
+
+// New Profile Help View:
+"NewProfileHelpVivoKeyProfile" = "VivoKey Profile";
+"NewProfileHelpDescription" = "Cryptobionically secured profile";
+"NewProfileHelpPoint1" = "You can edit your name and email without changing your VivoKey Profile.";
+"NewProfileHelpPoint2" = "If you already have a VivoKey Profile, you can add a new implant to your profile.";
+"NewProfileHelpPoint3" = "Your VivoKey VIVOKEY can only be linked to one VivoKey Profile."; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
+
+
+// New User - New Pin View:
+"CreateNewPIN" = "Create new PIN";
+"EnterPIN" = "Enter PIN";
+"ConfirmPIN" = "Confirm PIN";
+"KeepItSafe" = "Keep it safe!";
+"PINNoReset" = "PIN can not be reset";
+
+// New User - New Pin Help View:
+"PIN" = "PIN";
+"PersonalIdentificationNumber" = "Personal Identification Number";
+"NewPinHelpOne" = "Your profile PIN protects access to your VivoKey profile on new devices.";
+"NewPinHelpTwo" = "You will need to input your PIN only one time everytime you login a different device.";
+"NewPinHelpTree" = "Remember: There is no way to reset or recover  your PIN if you forget it.";
+"NewPinHelpFour" = "You can change your PIN in the Advanced tab, but you will still need your current PIN.";
+"NewPinHelpFive" = "Select a secure PIN you can always remember.";
+
+// Creating new user view:
+"CreatingNewProfile" = "Creating new VivoKey Profile";
+"CreatingStepData1" = "Creating profile...";
+"CreatingStepData2" = "Uploading avatar...";
+"CreatingStepData3" = "Registering this device...";
+"CreatingStepData4" = "Login in...";
+
+// VivoKeys View:
+"VivoKeysTitle" = "VivoKeys";
+"MyVivoKeys" = "My VivoKeys";
+"VivoKeySettings" = "VivoKey Settings";
+"VivoKeyName" = "VivoKey Name";
+
+"ActionPrivate" = "Private";
+"ActionProfile" = "Profile";
+"ActionURL" = "URL";
+
+"PrivateInfo" = "Show private page when scanning this VivoKey";
+"ProfileInfo" = "Show your VivoKey Profile when scanning VivoKey";
+"URLInfo" = "Show custom URL when scanning VivoKey";
+
+// VivoKeys Info PopUp:
+"Type" = "Type";
+"ChipUID" = "Chip UID";
+"ImplantID" = "Implant ID";
+"CopyTitle" = "Copy successful";
+"CopyDescription" = "Implant ID Copied to Clipboard";
+"CopyOK" = "OK";
+
+// From Weblink:
+"TimeSensitiveLogin" = "Time sensitive login";
+
+// Advanced View:
+"AdvancedTitle" = "Advanced";
+"ProfileCreatedOn"= "Profile craeted on: ";
+"RegisteredDevices" = "Registered Devices";
+"DeviceAddedDate" = "Added";
+"DeviceLastAccess" = "Last Access";
+"Authorizations" = "Authorizations";
+"CustomApplications" = "Custom Applications";
+
+"Refresh" = "Refresh";
+"ChangePIN" = "Change PIN";
+
+// Advanced View - Edit App:
+"EditEditApp" = "Edit App";
+"EditAppName" = "App Name";
+"EditAppDescription" = "App Description";
+"EditChallengeMessage" = "Challenge Message";
+"EditRedirectURL" = "Redirect URL";
+"EditID" = "App ID";
+"EditCopy" = "Copy";
+"EditSecret" = "Secret Key";
+"EditDelete" = "Delete";
+"EditUpdate" = "Update";
+"EditAlertTitle" = "Are you sure you want to delete this app?";
+"EditNoUndo" = "There is no undo";
+
+// Advanced - New App
+"NewAppTitle" = "New App";
+"NewAppName" = "App name";
+"NewAppDescription" = "App description";
+"NewAppChallenge" = "Challenge Message";
+"NewAppChallengeDescription" = "Message to display to users when prompted to scan their VivoKey";
+"NewAppRedirect" = "Redirect URL";
+"NewAppRedirectDescription" = "The login will be redirect here";
+"NewAppCreate" = "Create App";
+"NewAppCreating" = "Creating New App";
+
+// Advanced View - Warning
+"Warning" = "WARNING!";
+"Warning1" = "Changes on this page are irreversible";
+"Warning2" = "Plase be aware that we cannot undo any changes made on this page.";
+"Understood" = "I understand";
+"DontShowWarning" = "Don't show this message again.";
+
+// [END: TRANSLATION INSIDE THE APP]
+
+
