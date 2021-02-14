@@ -80,7 +80,7 @@
 
 "Done" = "Abgeschlossen";
 
-"Name" = "Benutzername";
+"Name" = "Anzeigename";
 "EmailAddress" = "E-Mail-Adresse";
 "SelfIntroduction" = "Über mich";
 "FeaturedLink" = "Hervorgehobener Link";
@@ -89,7 +89,7 @@
 "ProfileLinks" = "Links";
 "AddLink" = "Link hinzufügen";
 "EditProfileURLNote" = "Hinweis: Nur gültige URI/URL werden gespeichert";
-"UserNameNoEmpty" = "Der Benutzername darf nicht leer sein;
+"UserNameNoEmpty" = "Der Anzeigename darf nicht leer sein;
 
 
 // Advanced View - Change PIN View:
