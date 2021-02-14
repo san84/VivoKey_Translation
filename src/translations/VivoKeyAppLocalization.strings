@@ -46,185 +46,199 @@
 
 
 // MainView - Top:
-"Welcome" = "Welcome";
-"ScanYourVivoKey" = "Scan your VivoKey";
-"ConnectingToServer" = "Connecting to server...";
-"AdquiringUserInformation" = "Adquiring user information...";
-"ReaderError" = "Reader error";
-"PleaseTryAgain" = "Please try again";
+"Welcome" = "Willkommen";
+"ScanYourVivoKey" = "Scanne deinen VivoKey";
+"ConnectingToServer" = "Die Verbindung zum Server wird aufgebaut...";
+// TODO: Is this a typo? "Acquiring" instead of "adquiring"?
+// TODO: I need a little more context for a better translation. Is this used while "loading" user information (e.g.) from a server, or to "enter" user information during the initial setup?
+"AdquiringUserInformation" = "Benutzerinformationen werden geladen..."; // --> translates to "loading" the user information from a server or from the implant
+"AdquiringUserInformation" = "Benutzerinformationen erfassen..."; // -->   translates to "enter" / "collect" the user information from a form
+"ReaderError" = "Lesefehler";
+"PleaseTryAgain" = "Bitte versuche es nochmals";
 
 // MainView - Help:
-"WelcometoVivoKey" = "Welcome to VivoKey";
+"WelcometoVivoKey" = "Willkommen bei VivoKey";
 
-"WelcomeToVivoKeyDescription" = "This app helps you setup your VivoKey profile. Access other platforms trough QR Code authorizations. Control the response of your implant to other devices. Manage the authorizations to other devices and services trough OAuth2.0 and create your own custom application credentials.\n\nIn order to use this app you will need to have one VivoKey cybernetic implant with you. If you still don't have your own VivoKey cybernetic implant, please visit the following link to know where you can obtain one.";
+//"WelcomeToVivoKeyDescription" = "This app helps you setup your VivoKey profile. Access other platforms trough QR Code authorizations. Control the response of your implant to other devices. Manage the authorizations to other devices and services trough OAuth2.0 and create your own custom application credentials.\n\nIn order to use this app you will need to have one VivoKey cybernetic implant with you. If you still don't have your own VivoKey cybernetic implant, please visit the following link to know where you can obtain one.";
+"WelcomeToVivoKeyDescription" = "Diese App hilft dir bei der Einrichtung deines VivoKey-Profils. Greife über QR-Code-Autorisierungen auf andere Plattformen und Dienste zu. Steuere das Verhalten deines Implantats, wenn es von anderen Geräten gescannt wird. Verwalte die Autorisierungen anderer Geräte und Dienste mittels OAuth2.0 und erstelle deine persönlichen Anmeldeinformationen für weitere Applikationen.\n\nUm diese App verwenden zu können, benötigst du ein kybernetisches VivoKey-Implantat. Wenn du noch kein eigenes kybernetisches VivoKey-Implantat besitzt, besuche die folgende Seite um herauszufinden, wo du eines erwerben kannst.";
+
+// TODO: Doesn't "obtain" sound like "receiving it for free"? I chose "erwerben" in German, which means "purchase" or "buy". If you prefer to stick with "obtain", you can simply replace "erwerben" with "erhalten", which translates to "obtain" or "receive".
 
 // Web Profile View:
 
 
 // User View - Dashboard
-"UserViewTitle" = "Dashboard";
-"QRCodeScanner" = "QR Code Scanner";
+"UserViewTitle" = "Übersicht"; // Maybe it's better to stick to "Dashboard". It depends on where it is used inside the app. "Übersicht" translates to "Overview".
+"QRCodeScanner" = "QR-Code Scanner";
 
 
-"Cancel" = "Cancel";
+"Cancel" = "Abbrechen";
 
 // User View - Edit User View
-"PackingData" = "Packing data...";
-"UpdatingProfile" = "Updating profile...";
-"UploadingAvatar" = "Uploading avatar...";
+"PackingData" = "Daten werden verpackt..."; // Again, this might change a bit depending on the context where it is used.
+"UpdatingProfile" = "Profil wird aktualisiert...";
+"UploadingAvatar" = "Avatar wird hochgeladen...";
 
-"EditProfileTitle" = "Edit Profile";
-"UpdatingVivoKeyProfile" = "Updating VivoKey Profile";
+"EditProfileTitle" = "Profil bearbeiten";
+"UpdatingVivoKeyProfile" = "Das VivoKey-Profil wird aktualisiert";
 
-"Done" = "Done";
+"Done" = "Abgeschlossen";
 
-"Name" = "User Name";
-"EmailAddress" = "Email Address";
-"SelfIntroduction" = "Self Introduction";
-"FeaturedLink" = "Featured Link";
+"Name" = "Benutzername";
+"EmailAddress" = "E-Mail-Adresse";
+"SelfIntroduction" = "Über mich";
+"FeaturedLink" = "Angezeigter Link"; // This might also change based on the context
 "ProfileLinks" = "Links";
-"AddLink" = "Add link";
-"EditProfileURLNote" = "Note: Only valid URL/URI will be saved";
-"UserNameNoEmpty" = "Username can't be empty";
+"AddLink" = "Link hinzufügen";
+"EditProfileURLNote" = "Hinweis: Nur gültige URI/URL werden gespeichert";
+"UserNameNoEmpty" = "Der Benutzername darf nicht leer sein;
 
 
 // Advanced View - Change PIN View:
-"CurrentPIN" = "Current PIN";
-"NewPIN" = "New PIN";
-"ConfirmNewPIN" = "Confirm new PIN";
-"Step" = "Step";
-"RegisteringNewPIN" = "Registering new PIN...";
-"DoesntmatchNewPIN" = "Doesn't match new PIN";
-"CouldntReachTheServer" = "Couldn't reach the server";
-"WrongCurrentPIN" = "Wrong current PIN";
-"PINChange" = "PIN Change";
-"ChangeSuccessful" = "Change Successful";
-"EnterValidEmailAddress" = "Enter a valid email address";
+"CurrentPIN" = "Aktuelle PIN";
+"NewPIN" = "Neue PIN";
+"ConfirmNewPIN" = "Neue PIN bestätigen";
+"Step" = "Schritt";
+"RegisteringNewPIN" = "Neue PIN wird registriert...";
+"DoesntmatchNewPIN" = "Neue PIN stimmt nicht überein";
+"CouldntReachTheServer" = "Der Server konnte nicht erreicht werden";
+"WrongCurrentPIN" = "Aktuelle PIN falsch";
+"PINChange" = "PIN-Änderung";
+"ChangeSuccessful" = "Änderung erfolgreich";
+"EnterValidEmailAddress" = "Gib eine gültige E-Mail-Adresse ein";
 
-"Close" = "Close"; // Close alert
+"Close" = "Schliessen"; // Close alert
 
 
 // Reader
-"HoldYouriPhoneNearYourVivoKey" = "Hold your iPhone near your VivoKey";
+"HoldYouriPhoneNearYourVivoKey" = "Halte dein iPhone an deinen VivoKey";
+// TODO: the NFC reader of the iPhone is always on the top of the device. Should we point this out?
+// "Hold the top of your iPhone near your VivoKey" --> "Halte die obere Seite deines iPhones an deinen VivoKey"
 
 // PIN View:
-"ThisVivoKeyIsInUse" = "This VivoKey is in use!";
-"EnterYourPin" = "Enter your profile PIN";
-"LoginIn" = "Acquiring user information...";
+"ThisVivoKeyIsInUse" = "Dieser VivoKey wird bereits benutzt!";
+"EnterYourPin" = "Gib deine Profil-PIN ein";
+"LoginIn" = "Benutzerinformationen werden geladen...";
 
 // New VivoKey Profile
-"NewProfileTitle" = "New VivoKey Profile";
+"NewProfileTitle" = "Neues VivoKey-Profil";
 
-"NewProfileDescription" = "Create a new VivoKey profile and link your new VIVOKEY!"; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
+"NewProfileDescription" = "Erstelle ein neues VivoKey-Profil und verbinde es mit deinem neuen VIVOKEY!"; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
 
 "NewProfileName" = "Name";
-"NewProfileEmail" = "Email Address";
-"NewProfileNextStep" = "Next step";
-"NewProfileNameCantBeEmtpy" = "Name can't be empty.";
-"NewProfileEnterValidEmail" = "Enter valid E-mail";
-"NewProfileBeforeProceed" = "Before you proceed!";
-"NewProfileBefore1" = "Your VivoKey VIVOKEY can only be linked to one VivoKey Profile."; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
-"NewProfileBefore2" = "See help for more details.";
+"NewProfileEmail" = "E-Mail-Adresse";
+"NewProfileNextStep" = "Nächster Schritt";
+"NewProfileNameCantBeEmtpy" = "Der Name darf nicht leer sein.";
+"NewProfileEnterValidEmail" = "Gib eine gültige E-Mail-Adresse ein";
+"NewProfileBeforeProceed" = "Bevor du fortfährst!";
+"NewProfileBefore1" = "Dein VivoKey VIVOKEY kann nur mit einem VivoKey-Profil verbunden sein."; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
+"NewProfileBefore2" = "Mehr Informationen findest du auf der Hilfeseite.";
 
 // New Profile Help View:
-"NewProfileHelpVivoKeyProfile" = "VivoKey Profile";
-"NewProfileHelpDescription" = "Cryptobionically secured profile";
-"NewProfileHelpPoint1" = "You can edit your name and email without changing your VivoKey Profile.";
-"NewProfileHelpPoint2" = "If you already have a VivoKey Profile, you can add a new implant to your profile.";
-"NewProfileHelpPoint3" = "Your VivoKey VIVOKEY can only be linked to one VivoKey Profile."; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
+"NewProfileHelpVivoKeyProfile" = "VivoKey-Profil";
+"NewProfileHelpDescription" = "Kryptobionisch gesichertes Profil";
+"NewProfileHelpPoint1" = "Du kannst deinen Namen und deine E-Mail-Adresse bearbeiten, ohne dein VivoKey-Profil zu verändern.";
+"NewProfileHelpPoint2" = "Falls du bereits ein VivoKey-Profil hast, kannst du deinem Profil ein neues Implantat hinzufügen.";
+"NewProfileHelpPoint3" = "Dein VivoKey VIVOKEY kann nur mit einem VivoKey-Profil verbunden sein."; // The exact letters "VIVOKEY" will be replaced for the implant type (Spark 1, Spark 2, etc) so please use VIVOKEY inside the translation to address the Implant Type.
 
 
 // New User - New Pin View:
-"CreateNewPIN" = "Create new PIN";
-"EnterPIN" = "Enter PIN";
-"ConfirmPIN" = "Confirm PIN";
-"KeepItSafe" = "Keep it safe!";
-"PINNoReset" = "PIN can not be reset";
+"CreateNewPIN" = "Neue PIN erstellen";
+"EnterPIN" = "PIN eingeben";
+"ConfirmPIN" = "PIN bestätigen";
+"KeepItSafe" = "Sicher aufbewahren!";
+"PINNoReset" = "Die PIN kann nicht zurückgesetzt werden";
 
 // New User - New Pin Help View:
 "PIN" = "PIN";
-"PersonalIdentificationNumber" = "Personal Identification Number";
-"NewPinHelpOne" = "Your profile PIN protects access to your VivoKey profile on new devices.";
+"PersonalIdentificationNumber" = "Persönliche Identifikations-Nummer";
+"NewPinHelpOne" = "Deine Profil-PIN schützt den Zugang zu deinem VivoKey-Profil auf neuen Geräten.";
 "NewPinHelpTwo" = "You will need to input your PIN only one time everytime you login a different device.";
-"NewPinHelpTree" = "Remember: There is no way to reset or recover  your PIN if you forget it.";
-"NewPinHelpFour" = "You can change your PIN in the Advanced tab, but you will still need your current PIN.";
-"NewPinHelpFive" = "Select a secure PIN you can always remember.";
+"NewPinHelpTwo" = "Immer wenn du dich an einem anderen Gerät anmeldest, musst du deine PIN beim ersten Login einmal eingeben.";
+"NewPinHelpTree" = "Denk daran: Es gibt keine Möglichkeit, deine PIN wiederherzustellen oder zurückzusetzen, wenn du sie vergessen hast.";
+// "NewPinHelpTree" = "Remember: There is no way to reset or recover  your PIN if you forget it.";
+// TODO: There are two spaces between "recover" and "your"
+"NewPinHelpFour" = "Du kannst deine PIN in der Lasche 'Erweitert' ändern. Dazu benötigst Du aber deine aktuelle PIN.";
+"NewPinHelpFive" = "Wähle eine sichere PIN, die du dir gut merken kannst.";
 
 // Creating new user view:
-"CreatingNewProfile" = "Creating new VivoKey Profile";
-"CreatingStepData1" = "Creating profile...";
-"CreatingStepData2" = "Uploading avatar...";
-"CreatingStepData3" = "Registering this device...";
-"CreatingStepData4" = "Login in...";
+"CreatingNewProfile" = "VivoKey-Profil wird erstellt";
+"CreatingStepData1" = "Profil wird erstellt...";
+"CreatingStepData2" = "Avatar wird hochgeladen...";
+"CreatingStepData3" = "Gerät wird registriert...";
+"CreatingStepData4" = "Anmeldevorgang...";
 
 // VivoKeys View:
 "VivoKeysTitle" = "VivoKeys";
-"MyVivoKeys" = "My VivoKeys";
-"VivoKeySettings" = "VivoKey Settings";
+"MyVivoKeys" = "Meine VivoKeys";
+"VivoKeySettings" = "VivoKey Einstellungen";
 "VivoKeyName" = "VivoKey Name";
 
-"ActionPrivate" = "Private";
-"ActionProfile" = "Profile";
+"ActionPrivate" = "Privat";
+"ActionProfile" = "Profil";
 "ActionURL" = "URL";
 
-"PrivateInfo" = "Show private page when scanning this VivoKey";
-"ProfileInfo" = "Show your VivoKey Profile when scanning VivoKey";
-"URLInfo" = "Show custom URL when scanning VivoKey";
+"PrivateInfo" = "Private Seite anzeigen, wenn dieser VivoKey gescannt wird";
+"ProfileInfo" = "VivoKey-Profil anzeigen, wenn dieser VivoKey gescannt wird";
+"URLInfo" = "Benutzerdefinierte URL anzeigen, wenn dieser VivoKey gescannt wird";
 
 // VivoKeys Info PopUp:
-"Type" = "Type";
+"Type" = "Typ";
 "ChipUID" = "Chip UID";
-"ImplantID" = "Implant ID";
-"CopyTitle" = "Copy successful";
-"CopyDescription" = "Implant ID Copied to Clipboard";
+"ImplantID" = "Implantat ID";
+"CopyTitle" = "Kopieren erfolgreich";
+"CopyDescription" = "Implantat ID in die Zwischenablage kopiert";
 "CopyOK" = "OK";
 
 // From Weblink:
-"TimeSensitiveLogin" = "Time sensitive login";
+"TimeSensitiveLogin" = "Zeitabhängige Anmeldung";
 
 // Advanced View:
-"AdvancedTitle" = "Advanced";
-"ProfileCreatedOn"= "Profile craeted on: ";
-"RegisteredDevices" = "Registered Devices";
-"DeviceAddedDate" = "Added";
-"DeviceLastAccess" = "Last Access";
-"Authorizations" = "Authorizations";
-"CustomApplications" = "Custom Applications";
+"AdvancedTitle" = "Erweitert";
+"ProfileCreatedOn"= "Profil erstellt am: ";
+"RegisteredDevices" = "Registrierte Geräte";
+"DeviceAddedDate" = "Hinzugefügt";
+"DeviceLastAccess" = "Letzter Zugriff";
+"Authorizations" = "Autorisierungen";
+"CustomApplications" = "Benutzerdefinierte Applikationen";
 
-"Refresh" = "Refresh";
-"ChangePIN" = "Change PIN";
+"Refresh" = "Aktualisieren";
+"ChangePIN" = "PIN ändern";
 
 // Advanced View - Edit App:
-"EditEditApp" = "Edit App";
+"EditEditApp" = "App bearbeiten";
 "EditAppName" = "App Name";
-"EditAppDescription" = "App Description";
-"EditChallengeMessage" = "Challenge Message";
-"EditRedirectURL" = "Redirect URL";
+"EditAppDescription" = "App Beschreibung";
+"EditChallengeMessage" = "Challenge Nachricht";
+"EditRedirectURL" = "Weiterleitungs-URL";
 "EditID" = "App ID";
-"EditCopy" = "Copy";
-"EditSecret" = "Secret Key";
-"EditDelete" = "Delete";
-"EditUpdate" = "Update";
-"EditAlertTitle" = "Are you sure you want to delete this app?";
-"EditNoUndo" = "There is no undo";
+"EditCopy" = "Kopieren";
+"EditSecret" = "Geheimer Schlüssel";
+"EditDelete" = "Löschen";
+"EditUpdate" = "Aktualisieren";
+"EditAlertTitle" = "Bist du sicher, dass du diese App löschen willst?";
+"EditNoUndo" = "Dieser Schritt kann nicht rückgängig gemacht werden";
 
 // Advanced - New App
-"NewAppTitle" = "New App";
-"NewAppName" = "App name";
-"NewAppDescription" = "App description";
-"NewAppChallenge" = "Challenge Message";
+"NewAppTitle" = "Neue App";
+"NewAppName" = "App Name";
+"NewAppDescription" = "App Beschreibung";
+"NewAppChallenge" = "Challenge Nachricht";
 "NewAppChallengeDescription" = "Message to display to users when prompted to scan their VivoKey";
-"NewAppRedirect" = "Redirect URL";
-"NewAppRedirectDescription" = "The login will be redirect here";
-"NewAppCreate" = "Create App";
-"NewAppCreating" = "Creating New App";
+"NewAppChallengeDescription" = "Nachricht, die Benutzern bei der Aufforderung zum Scannen ihres VivoKeys angezeigt wird.";
+"NewAppRedirect" = "Weiterleitungs-URL";
+"NewAppRedirectDescription" = "Die Anmeldung wird hierhin weitergeleitet";
+"NewAppCreate" = "Neue App erstellen";
+"NewAppCreating" = "Erstelle neue App";
 
 // Advanced View - Warning
-"Warning" = "WARNING!";
-"Warning1" = "Changes on this page are irreversible";
-"Warning2" = "Plase be aware that we cannot undo any changes made on this page.";
-"Understood" = "I understand";
-"DontShowWarning" = "Don't show this message again.";
+"Warning" = "WARNUNG!";
+"Warning1" = "Die Änderungen auf dieser Seite können nicht rückgängig gemacht werden!";
+// "Warning2" = "Plase be aware that we cannot undo any changes made on this page.";
+// TODO: Typo - "Plase" --> "Please"
+"Warning2" = "Bitte beachte, dass Änderungen auf dieser Seite nicht rückgängig gemacht werden können.";
+"Understood" = "Ich habe verstanden";
+"DontShowWarning" = "Diese Nachricht nicht mehr anzeigen.";
 
 // [END: TRANSLATION INSIDE THE APP]
 
