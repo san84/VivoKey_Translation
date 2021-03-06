@@ -241,6 +241,64 @@
 "Understood" = "Ich habe verstanden";
 "DontShowWarning" = "Diese Nachricht nicht mehr anzeigen.";
 
+
+
+
+
+
+// 2021-02-20 NEW STRINGS
+// For the messages after Push Notification or URL Link login screens:
+
+// URL Login
+
+"LoginSuccessful" = "Login Successful";
+"GoBackToPreviousApp" = "Go back to previous app";
+
+"LoginFailed" = "Login Failed";
+
+"appNotAssociated" = "App not assosiated with current user \n Login to this device's VivoKey App.";
+"alreadyHandled" = "Already handled token\nRefresh site to get new one";
+"canceled" = "Token canceled by user";
+"challengeFailed" = "Encryption failed";
+"expired" = "Token expired\nRefresh site to get new one";
+"failedToDecodeJSON" = "Wrong data from the server";
+"incorrectUser" = "Incorrect user";
+"noAuthority" = "Couldn't reach VivoKey Servers";
+"wrongAuthType" = "Wrong Authorization Type";
+"noUser" = "Couldn't find a user for this VivoKey";
+"notRegisteredImplant" = "VivoKey not registered";
+"tokenNotFound" = "Couldn't find challenge on server";
+
+   // To add a new line we use: \n
+   // Example:
+   // String: "This is top line\nThis is next line"
+   // Shows:
+   // This is top line
+   // This is next line
+
+
+   // 2021-02-22 NEW STRINGS
+   // Better messages for Reader Error
+
+   // URL Login
+
+"OAuthExpired" = "OAuth Expired";
+"TokenExpired" = "Challenge Expired";
+"ReaderError" = "Reading Error, see help for tips";
+"ServerDataNotFound" = "Server data not found, do you have internet access?";
+
+"ReaderTips" = "\nReader Tips:\n\nNFC implants, due to their small antenna, require a very specific angle and position near the reader.\n\nNFC works on magnetic coupling, so moving your implant while is being read could affect the communication quality.\n\nBecause everyone's implants are positioned differently, it can take a little time to get used to reading it. The best angle, speed, position depends on how the implant is set under your skin.\n\n* Try to keep steady when you approach your implant to the reader.\n\n* Approach once and wait one or two seconds.\n\n* If the reader didn't recognize the implant, separate your implant in one motion away from the reader and try approaching again.\n\n* Common errors happen when the implant is not steady or the user slides the implant around not allowing the scanner to complete the magnetic coupling.\n\n* Our implants have been extensively tested many times before you got it, in our many years we haven't had one single implant failed, but if you feel your VivoKey is not working properly, please get in touch with us so we can assist you better.";
+
+
+
+
+
 // [END: TRANSLATION INSIDE THE APP]
 
+
+
+// 2021-03-06 APP STORE DESCRIPTIONS:
+
+"appStorePromoText" = "Mange your cryptographically secure VivoKey account.";
+"appStoreDescription" = "The VivoKey platform is an identity provider (abbreviated IdP) - a system that creates, maintains, and manages identity information for principals while providing authentication services to relying applications within a federation or distributed network. Identity providers offer user authentication as a service. \n\nVivoKey secures your digital identity by scanning a VivoKey cryptobionic implant. Our implants are subdermal devices that perform cryptography in vivo, and prove you are you using strong cryptographic algorithms. The VivoKey app acts as the link between your VivoKey Identity and your VivoKey cryptobionic, validating requests, authorizing transactions, and authenticating your accounts.";
 
