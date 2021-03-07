@@ -225,12 +225,11 @@
 // Advanced - New App
 "NewAppTitle" = "Neue App";
 "NewAppName" = "App Name";
-"NewAppDescription" = "App Beschreibung";
+"NewAppDescription" = "Beschreibung";
 "NewAppChallenge" = "Challenge Nachricht";
-"NewAppChallengeDescription" = "Message to display to users when prompted to scan their VivoKey";
 "NewAppChallengeDescription" = "Nachricht, die Benutzern bei der Aufforderung zum Scannen ihres VivoKeys angezeigt wird.";
 "NewAppRedirect" = "Weiterleitungs-URL";
-"NewAppRedirectDescription" = "Die Anmeldung wird hierhin weitergeleitet";
+"NewAppRedirectDescription" = "Benutzer werden nach der Anmeldung an diese URL weitergeleitet";
 "NewAppCreate" = "Neue App erstellen";
 "NewAppCreating" = "Erstelle neue App";
 
@@ -251,23 +250,26 @@
 
 // URL Login
 
-"LoginSuccessful" = "Login Successful";
-"GoBackToPreviousApp" = "Go back to previous app";
+"LoginSuccessful" = "Anmeldung erfolgreich";
+"GoBackToPreviousApp" = "Zur vorherigen App zurückkehren";
 
-"LoginFailed" = "Login Failed";
+"LoginFailed" = "Anmeldung fehlgeschlagen";
 
-"appNotAssociated" = "App not assosiated with current user \n Login to this device's VivoKey App.";
-"alreadyHandled" = "Already handled token\nRefresh site to get new one";
-"canceled" = "Token canceled by user";
-"challengeFailed" = "Encryption failed";
-"expired" = "Token expired\nRefresh site to get new one";
-"failedToDecodeJSON" = "Wrong data from the server";
-"incorrectUser" = "Incorrect user";
-"noAuthority" = "Couldn't reach VivoKey Servers";
-"wrongAuthType" = "Wrong Authorization Type";
-"noUser" = "Couldn't find a user for this VivoKey";
-"notRegisteredImplant" = "VivoKey not registered";
-"tokenNotFound" = "Couldn't find challenge on server";
+// "appNotAssociated" = "App not assosiated with current user \n Login to this device's VivoKey App.";
+// TODO: typo                        ^  associated
+"appNotAssociated" = "Die App ist nicht mit dem aktuellen Benutzer verknüpft. \n Melde dich an der VivoKey App auf diesem Gerät an.";
+"alreadyHandled" = "Token wurde bereits benutzt.\nLade die Seite neu um einen neuen zu erhalten.";
+"canceled" = "Vorgang vom Benutzer abgebrochen";
+// TODO: What do you mean by "token"? Is this the challenge issued by the AuthZ server? My translation means "operation cancelled by user" - does this make sense?
+"challengeFailed" = "Verschlüsselung fehlgeschlagen";
+"expired" = "Token abgelaufen\nSeite aktualisieren um einen Neuen zu erhalten";
+"failedToDecodeJSON" = "Ungültige Daten vom Server erhalten";
+"incorrectUser" = "Falscher Benutzer";
+"noAuthority" = "Kommunikation zu den VivoKey-Servern fehlgeschlagen";
+"wrongAuthType" = "Falscher Autorisierungs-Typ";
+"noUser" = "Für diesen VivoKey wurde kein Benutzer gefunden";
+"notRegisteredImplant" = "VivoKey nicht registriert";
+"tokenNotFound" = "Auf dem Server wurde keine Challenge gefunden";
 
    // To add a new line we use: \n
    // Example:
@@ -282,15 +284,12 @@
 
    // URL Login
 
-"OAuthExpired" = "OAuth Expired";
-"TokenExpired" = "Challenge Expired";
-"ReaderError" = "Reading Error, see help for tips";
-"ServerDataNotFound" = "Server data not found, do you have internet access?";
+"OAuthExpired" = "OAuth abgelaufen";
+"TokenExpired" = "Challenge abgelaufen";
+"ReaderError" = "Lesefehler. Schau in der Hilfe für nützliche Tipps";
+"ServerDataNotFound" = "Daten konnten nicht vom Server geladen werden. Bist du mit dem Internet verbunden?";
 
-"ReaderTips" = "\nReader Tips:\n\nNFC implants, due to their small antenna, require a very specific angle and position near the reader.\n\nNFC works on magnetic coupling, so moving your implant while is being read could affect the communication quality.\n\nBecause everyone's implants are positioned differently, it can take a little time to get used to reading it. The best angle, speed, position depends on how the implant is set under your skin.\n\n* Try to keep steady when you approach your implant to the reader.\n\n* Approach once and wait one or two seconds.\n\n* If the reader didn't recognize the implant, separate your implant in one motion away from the reader and try approaching again.\n\n* Common errors happen when the implant is not steady or the user slides the implant around not allowing the scanner to complete the magnetic coupling.\n\n* Our implants have been extensively tested many times before you got it, in our many years we haven't had one single implant failed, but if you feel your VivoKey is not working properly, please get in touch with us so we can assist you better.";
-
-
-
+"ReaderTips" = "\nNFC-Leser-Tips:\n\nAufgrund ihrer kleinen Antenne muss der Winkel und die Position beim Lesen der NFC-Implantate exakt stimmen.\n\nNFC arbeitet mit magnetischer Kopplung. Das Bewegen des Implantats während des Lesevorgangs kann die Kommunikationsqualität beeinträchtigen.\n\nLesegeschwindigkeit, -Winkel und -Position hängen davon ab, wie das Implantat unter der Haut positioniert ist. Es kann eine Weile dauern, bis du dich an den Lesevorgang gewöhnt hast.\n\n* Versuche möglist still zu halten, wenn du das Implantat an den Leser hältst.\n\n* Halte es an den Leser und warte ein bis zwei Sekunden.\n\n* Wenn das Implantat vom Leser nicht erkannt wird, distanziere es genügend weit vom Leser und versuche es in einer ruhigen Bewegung erneut.\n\n* Am häufigsten treten Lesefehler auf, wenn der Leser nicht still gehalten wird, oder das Implantat verrutscht. Dies verhindert die magnetischer Kopplung zwischen Leser und Implantat.\n\n* Jedes unserer Implantate wurde ausgiebig getestet bevor es an dich verschickt wurde. Bis jetzt hatten wir noch kein einziges Implantat, das ausgefallen ist. Solltest du dennoch den Eindruck haben, dass dein VivoKey nicht richtig funktionrt, kontaktiere uns bitte damit wir dich bei der Fehlersuche unterstützen können.";
 
 
 // [END: TRANSLATION INSIDE THE APP]
@@ -299,6 +298,6 @@
 
 // 2021-03-06 APP STORE DESCRIPTIONS:
 
-"appStorePromoText" = "Mange your cryptographically secure VivoKey account.";
-"appStoreDescription" = "The VivoKey platform is an identity provider (abbreviated IdP) - a system that creates, maintains, and manages identity information for principals while providing authentication services to relying applications within a federation or distributed network. Identity providers offer user authentication as a service. \n\nVivoKey secures your digital identity by scanning a VivoKey cryptobionic implant. Our implants are subdermal devices that perform cryptography in vivo, and prove you are you using strong cryptographic algorithms. The VivoKey app acts as the link between your VivoKey Identity and your VivoKey cryptobionic, validating requests, authorizing transactions, and authenticating your accounts.";
+"appStorePromoText" = "Verwalte dein kryptografisch gesichertes VivoKey-Benutzerkonto.";
+"appStoreDescription" = "Die VivoKey-Plattform ist ein Anbieter von digitalen Identitäten (engl. Identity Provider, IdP) - ein System zur Erstellung und Verwaltung von Identitätsinformationen. Zudem umfasst die Plattform ein Authentisierungsdienst, der durch angebundene Applikationen (engl. Relying Parties, RP) zur Anmeldung mit einer föderierten Identität genutzt werden kann (engl. Identity Federation). \n\nVivoKey sichert deine digitale Identität durch das Scannen eines kryptobionischen VivoKey-Implantats. Unsere Implantate sind subdermale Sicherheitsmodule, die deine Identität durch die Ausführung starker kryptografischer Algorithmen 'in vivo' beweisen. Die VivoKey-App bildet das Bindeglied zwischen deiner VivoKey-Identität und deinem kryptobionischen VivoKey-Implantat um Anmeldevorgänge zu validieren und Transaktionen zu autorisieren.";
 
